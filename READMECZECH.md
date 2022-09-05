@@ -47,7 +47,7 @@
 
 - Bylo implementováno zlepšení ohodnocování vrcholů. Místo `1/theta` bylo použito `cos(theta/2)` pro lepší odhad váhy vrcholu. `theta` - maximální úhel mezi dvěma hranami vrcholu
 
-- Normály byly seřízeny pomocí přidávání nových ploch do nového meshe ve stejném pořadí jakém byli získány ze struktury.
+- Normály byly seřízeny pomocí přidávání nových ploch do nového meshe ve stejném pořadí v jakém byly získány ze struktury.
 
 ```python
 
